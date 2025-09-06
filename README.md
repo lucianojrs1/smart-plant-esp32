@@ -1,4 +1,4 @@
-# smart-plant-esp32
+# Smart Plant esp32
 
 
 Projeto de **Planta Inteligente** utilizando o **ESP32** para monitorar a umidade do solo e automatizar a irrigação.  
