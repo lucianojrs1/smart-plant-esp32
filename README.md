@@ -46,10 +46,6 @@
 
 1.  Crie uma conta no [Adafruit IO](https://io.adafruit.com/).
 2.  Crie os seguintes Feeds:
-    * `umidade_solo
-    * 
-1.  Crie uma conta no [Adafruit IO](https://io.adafruit.com/).
-2.  Crie os seguintes Feeds:
     * `umidade_solo`
     * `estado_boia`
     * `rele`
@@ -59,7 +55,7 @@
 
 No arquivo principal do projeto, insira suas credenciais:
 
-// Credenciais Wi-Fi
+//Credenciais Wi-Fi
 #define WIFI_SSID "NOME_DA_SUA_REDE_WIFI"
 #define WIFI_PASS "SENHA_DA_SUA_REDE_WIFI"
 
