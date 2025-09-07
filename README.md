@@ -1,6 +1,7 @@
 # Sistema de Irrigação Automática com ESP32 e Adafruit IO
 
-![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-yellow) Este projeto implementa um sistema de irrigação automatizado usando **ESP32**, **sensor capacitivo de umidade do solo**, **boia de nível de água** e controle de bomba via **relé**. Os dados são enviados para a plataforma **Adafruit IO** para monitoramento remoto em tempo real.
+![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+Este projeto implementa um sistema de irrigação automatizado usando **ESP32**, **sensor capacitivo de umidade do solo**, **boia de nível de água** e controle de bomba via **relé**. Os dados são enviados para a plataforma **Adafruit IO** para monitoramento remoto em tempo real.
 
 ---
 
@@ -55,10 +56,12 @@
 
 No arquivo principal do projeto, insira suas credenciais:
 
-//Credenciais Wi-Fi
+Credenciais Wi-Fi
+
 #define WIFI_SSID "NOME_DA_SUA_REDE_WIFI"
 #define WIFI_PASS "SENHA_DA_SUA_REDE_WIFI"
 
-// Credenciais Adafruit IO
+Credenciais Adafruit IO
+
 #define IO_USERNAME "SEU_USUARIO_ADAFRUIT_IO"
 #define IO_KEY      "SUA_CHAVE_ADAFRUIT_IO"
